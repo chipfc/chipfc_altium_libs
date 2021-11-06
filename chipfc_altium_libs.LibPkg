@@ -106,23 +106,6 @@ GenerateClassCluster=0
 DocumentUniqueId=KASMLSTF
 
 [Document5]
-DocumentPath=chipfc_libs\chipfc_extras_footprint.PCBLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YTJUMXOJ
-
-[Document6]
 DocumentPath=connectors\connectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OVINYBIM
 
-[Document7]
+[Document6]
 DocumentPath=connectors\connectors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NREFRDLN
 
-[Document8]
+[Document7]
 DocumentPath=led\led.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KKUKMJYX
 
-[Document9]
+[Document8]
 DocumentPath=led\led.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DKYRMQHS
 
-[Document10]
+[Document9]
 DocumentPath=ic_io_interface\ic_io_interface.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WBIJGPKL
 
-[Document11]
+[Document10]
 DocumentPath=ic_io_interface\ic_io_interface.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=ic_pmic\ic_pmic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=ic_pmic\ic_pmic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XLBMSMGE
 
-[Document14]
+[Document13]
 DocumentPath=mcu_avr\mcu_avr.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OXUKMCOL
 
-[Document15]
+[Document14]
 DocumentPath=mcu_avr\mcu_avr.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=mcu_stm8\mcu_stm8.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MICQARPX
 
-[Document17]
+[Document16]
 DocumentPath=mcu_stm8\mcu_stm8.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=mcu_stm32f1\mcu_stm32f1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMYNLDNX
 
-[Document19]
+[Document18]
 DocumentPath=mcu_stm32f1\mcu_stm32f1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=model\model.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PAUGQQYE
 
-[Document21]
+[Document20]
 DocumentPath=model\model.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BMGDUHBV
 
-[Document22]
+[Document21]
 DocumentPath=mcu_pic\mcu_pic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -411,7 +394,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FPYRRHGN
 
-[Document23]
+[Document22]
 DocumentPath=mcu_pic\mcu_pic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CUDNWWJU
 
-[Document24]
+[Document23]
 DocumentPath=chipfc_libs\microbit.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=module\module.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YVFUJYAK
 
-[Document26]
+[Document25]
 DocumentPath=module\module.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +462,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NNDGXFEU
 
-[Document27]
+[Document26]
 DocumentPath=simcom\simcom.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +479,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LRCRTLCB
 
-[Document28]
+[Document27]
 DocumentPath=simcom\simcom.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +496,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SABGVHWV
 
-[Document29]
+[Document28]
 DocumentPath=chipi\chipi.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +513,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MRHWWQMV
 
-[Document30]
+[Document29]
 DocumentPath=chipi\chipi.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
