@@ -4,6 +4,48 @@ Bộ thư viện linh kiện Altium của ChipFC: 18 thư viện, 385 linh kiệ
 
 Mở `chipfc_altium_libs.LibPkg` để nạp các thư viện chính. `Arduino`, `ESP32` và `ESP8266` không nằm trong gói này, mỗi thư viện có file `.LibPkg` riêng trong thư mục của nó.
 
+## Cài đặt vào Altium
+
+Repo chỉ chứa file nguồn (`.SchLib`, `.PcbLib`). Cách gọn nhất là biên dịch thành một file thư viện tích hợp (`.IntLib`) rồi cài file đó. Footprint của nhiều linh kiện nằm ở thư viện khác (xem [Lưu ý khi dùng](#lưu-ý-khi-dùng)), nên biên dịch cả gói thì symbol và footprint luôn đi kèm nhau.
+
+Ảnh chụp trên Altium Designer 26.
+
+### 1. Mở gói thư viện
+
+Trong Altium chọn **File → Open** và mở `chipfc_altium_libs.LibPkg`. Panel **Projects** sẽ hiện toàn bộ thư viện trong gói.
+
+![Gói thư viện trong panel Projects](docs/images/01-libpkg-opened.png)
+
+### 2. Biên dịch thành IntLib
+
+Chuột phải vào `chipfc_altium_libs.LibPkg` và chọn **Compile Integrated Library chipfc_altium_libs.LibPkg**. Sau khi chạy xong, xem panel **Messages** để kiểm tra lỗi.
+
+![Lệnh Compile Integrated Library](docs/images/02-compile-intlib.png)
+
+File kết quả nằm ở `Outputs/chipfc_altium_libs.IntLib`. Thư mục `Outputs` đã được bỏ qua trong `.gitignore`.
+
+![File IntLib trong thư mục Outputs](docs/images/03-intlib-output.png)
+
+### 3. Cài IntLib
+
+Mở panel **Components** (nút **Panels** ở góc dưới bên phải → **Components**), bấm nút ≡ và chọn **Libraries Preferences...**
+
+![Menu của panel Components](docs/images/04-components-panel-menu.png)
+
+Ở tab **Installed**, bấm **Install...** và chọn file `.IntLib` vừa tạo. Nhớ tích cột **Activated** cho thư viện cần dùng.
+
+![Hộp thoại Libraries Preferences](docs/images/05-libraries-preferences.png)
+
+`Arduino`, `ESP32` và `ESP8266` làm tương tự: mở `.LibPkg` trong thư mục của từng thư viện, biên dịch, rồi cài file `.IntLib` tạo ra.
+
+### 4. Đặt linh kiện
+
+Trong panel **Components**, chọn `chipfc_altium_libs.IntLib` ở ô thư viện, gõ tên linh kiện vào ô **Search** rồi kéo vào sơ đồ. Linh kiện có nhiều footprint (ví dụ `Resistor`) thì chọn cỡ ở mục **Footprint** trong panel **Properties**.
+
+### Khi thư viện được cập nhật
+
+`.IntLib` là bản đã biên dịch nên không sửa trực tiếp được. Sau khi `git pull` hoặc sửa `.SchLib`/`.PcbLib`, hãy biên dịch lại như bước 2. File mới nằm ở cùng đường dẫn nên không cần cài lại; nếu panel **Components** chưa cập nhật thì bấm ≡ → **Refresh** (F5).
+
 ## Cần linh kiện gì thì mở thư viện nào
 
 | Thư viện | Chứa gì | Linh kiện | Footprint |
